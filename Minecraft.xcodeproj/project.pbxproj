@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD94F7C153A182600B0F63B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD94F7B153A182600B0F63B /* UIKit.framework */; };
+		CAD94F7E153A182600B0F63B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD94F7D153A182600B0F63B /* Foundation.framework */; };
+		CAD94F80153A182600B0F63B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD94F7F153A182600B0F63B /* CoreGraphics.framework */; };
+		CAD94F86153A182600B0F63B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD94F84153A182600B0F63B /* InfoPlist.strings */; };
+		CAD94F88153A182600B0F63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD94F87153A182600B0F63B /* main.m */; };
+		CAD94F8C153A182600B0F63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD94F8B153A182600B0F63B /* AppDelegate.m */; };
+		CAD94F8F153A182600B0F63B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD94F8D153A182600B0F63B /* MainStoryboard.storyboard */; };
+		CAD94F92153A182600B0F63B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD94F91153A182600B0F63B /* FirstViewController.m */; };
+		CAD94F94153A182600B0F63B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD94F93153A182600B0F63B /* first.png */; };
+		CAD94F96153A182600B0F63B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD94F95153A182600B0F63B /* first@2x.png */; };
+		CAD94F99153A182600B0F63B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD94F98153A182600B0F63B /* SecondViewController.m */; };
+		CAD94F9B153A182600B0F63B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD94F9A153A182600B0F63B /* second.png */; };
+		CAD94F9D153A182600B0F63B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD94F9C153A182600B0F63B /* second@2x.png */; };
+		CAD94FA5153A182700B0F63B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD94FA4153A182700B0F63B /* SenTestingKit.framework */; };
+		CAD94FA6153A182700B0F63B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD94F7B153A182600B0F63B /* UIKit.framework */; };
+		CAD94FA7153A182700B0F63B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD94F7D153A182600B0F63B /* Foundation.framework */; };
+		CAD94FAF153A182700B0F63B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD94FAD153A182700B0F63B /* InfoPlist.strings */; };
+		CAD94FB2153A182700B0F63B /* MinecraftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD94FB1153A182700B0F63B /* MinecraftTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD94FA8153A182700B0F63B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD94F6E153A182500B0F63B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD94F76153A182600B0F63B;
+			remoteInfo = Minecraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD94F77153A182600B0F63B /* Minecraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minecraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD94F7B153A182600B0F63B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAD94F7D153A182600B0F63B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAD94F7F153A182600B0F63B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAD94F83153A182600B0F63B /* Minecraft-Info.plist */ = {isa = PBXFileReference; path = "Minecraft-Info.plist"; sourceTree = "<group>"; };
+		CAD94F85153A182600B0F63B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD94F87153A182600B0F63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAD94F89153A182600B0F63B /* Minecraft-Prefix.pch */ = {isa = PBXFileReference; path = "Minecraft-Prefix.pch"; sourceTree = "<group>"; };
+		CAD94F8A153A182600B0F63B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAD94F8B153A182600B0F63B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAD94F8E153A182600B0F63B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CAD94F90153A182600B0F63B /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		CAD94F91153A182600B0F63B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CAD94F93153A182600B0F63B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CAD94F95153A182600B0F63B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CAD94F97153A182600B0F63B /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		CAD94F98153A182600B0F63B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CAD94F9A153A182600B0F63B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CAD94F9C153A182600B0F63B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CAD94FA3153A182700B0F63B /* MinecraftTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinecraftTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD94FA4153A182700B0F63B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAD94FAC153A182700B0F63B /* MinecraftTests-Info.plist */ = {isa = PBXFileReference; path = "MinecraftTests-Info.plist"; sourceTree = "<group>"; };
+		CAD94FAE153A182700B0F63B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD94FB0153A182700B0F63B /* MinecraftTests.h */ = {isa = PBXFileReference; path = MinecraftTests.h; sourceTree = "<group>"; };
+		CAD94FB1153A182700B0F63B /* MinecraftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinecraftTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD94F74153A182600B0F63B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD94F7C153A182600B0F63B /* UIKit.framework in Frameworks */,
+				CAD94F7E153A182600B0F63B /* Foundation.framework in Frameworks */,
+				CAD94F80153A182600B0F63B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD94F9F153A182700B0F63B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD94FA5153A182700B0F63B /* SenTestingKit.framework in Frameworks */,
+				CAD94FA6153A182700B0F63B /* UIKit.framework in Frameworks */,
+				CAD94FA7153A182700B0F63B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD94F6C153A182500B0F63B = {
+			isa = PBXGroup;
+			children = (
+				CAD94F81153A182600B0F63B /* Minecraft */,
+				CAD94FAA153A182700B0F63B /* MinecraftTests */,
+				CAD94F7A153A182600B0F63B /* Frameworks */,
+				CAD94F78153A182600B0F63B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD94F78153A182600B0F63B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD94F77153A182600B0F63B /* Minecraft.app */,
+				CAD94FA3153A182700B0F63B /* MinecraftTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD94F7A153A182600B0F63B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD94F7B153A182600B0F63B /* UIKit.framework */,
+				CAD94F7D153A182600B0F63B /* Foundation.framework */,
+				CAD94F7F153A182600B0F63B /* CoreGraphics.framework */,
+				CAD94FA4153A182700B0F63B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD94F81153A182600B0F63B /* Minecraft */ = {
+			isa = PBXGroup;
+			children = (
+				CAD94F8A153A182600B0F63B /* AppDelegate.h */,
+				CAD94F8B153A182600B0F63B /* AppDelegate.m */,
+				CAD94F8D153A182600B0F63B /* MainStoryboard.storyboard */,
+				CAD94F90153A182600B0F63B /* FirstViewController.h */,
+				CAD94F91153A182600B0F63B /* FirstViewController.m */,
+				CAD94F93153A182600B0F63B /* first.png */,
+				CAD94F95153A182600B0F63B /* first@2x.png */,
+				CAD94F97153A182600B0F63B /* SecondViewController.h */,
+				CAD94F98153A182600B0F63B /* SecondViewController.m */,
+				CAD94F9A153A182600B0F63B /* second.png */,
+				CAD94F9C153A182600B0F63B /* second@2x.png */,
+				CAD94F82153A182600B0F63B /* Supporting Files */,
+			);
+			path = Minecraft;
+			sourceTree = "<group>";
+		};
+		CAD94F82153A182600B0F63B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD94F83153A182600B0F63B /* Minecraft-Info.plist */,
+				CAD94F84153A182600B0F63B /* InfoPlist.strings */,
+				CAD94F87153A182600B0F63B /* main.m */,
+				CAD94F89153A182600B0F63B /* Minecraft-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD94FAA153A182700B0F63B /* MinecraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD94FB0153A182700B0F63B /* MinecraftTests.h */,
+				CAD94FB1153A182700B0F63B /* MinecraftTests.m */,
+				CAD94FAB153A182700B0F63B /* Supporting Files */,
+			);
+			path = MinecraftTests;
+			sourceTree = "<group>";
+		};
+		CAD94FAB153A182700B0F63B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD94FAC153A182700B0F63B /* MinecraftTests-Info.plist */,
+				CAD94FAD153A182700B0F63B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD94F76153A182600B0F63B /* Minecraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD94FB5153A182700B0F63B /* Build configuration list for PBXNativeTarget "Minecraft" */;
+			buildPhases = (
+				CAD94F73153A182600B0F63B /* Sources */,
+				CAD94F74153A182600B0F63B /* Frameworks */,
+				CAD94F75153A182600B0F63B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minecraft;
+			productName = Minecraft;
+			productReference = CAD94F77153A182600B0F63B /* Minecraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD94FA2153A182700B0F63B /* MinecraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD94FB8153A182700B0F63B /* Build configuration list for PBXNativeTarget "MinecraftTests" */;
+			buildPhases = (
+				CAD94F9E153A182700B0F63B /* Sources */,
+				CAD94F9F153A182700B0F63B /* Frameworks */,
+				CAD94FA0153A182700B0F63B /* Resources */,
+				CAD94FA1153A182700B0F63B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD94FA9153A182700B0F63B /* PBXTargetDependency */,
+			);
+			name = MinecraftTests;
+			productName = MinecraftTests;
+			productReference = CAD94FA3153A182700B0F63B /* MinecraftTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD94F6E153A182500B0F63B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CAD94F71153A182500B0F63B /* Build configuration list for PBXProject "Minecraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAD94F6C153A182500B0F63B;
+			productRefGroup = CAD94F78153A182600B0F63B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD94F76153A182600B0F63B /* Minecraft */,
+				CAD94FA2153A182700B0F63B /* MinecraftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD94F75153A182600B0F63B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD94F86153A182600B0F63B /* InfoPlist.strings in Resources */,
+				CAD94F8F153A182600B0F63B /* MainStoryboard.storyboard in Resources */,
+				CAD94F94153A182600B0F63B /* first.png in Resources */,
+				CAD94F96153A182600B0F63B /* first@2x.png in Resources */,
+				CAD94F9B153A182600B0F63B /* second.png in Resources */,
+				CAD94F9D153A182600B0F63B /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD94FA0153A182700B0F63B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD94FAF153A182700B0F63B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAD94FA1153A182700B0F63B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD94F73153A182600B0F63B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD94F88153A182600B0F63B /* main.m in Sources */,
+				CAD94F8C153A182600B0F63B /* AppDelegate.m in Sources */,
+				CAD94F92153A182600B0F63B /* FirstViewController.m in Sources */,
+				CAD94F99153A182600B0F63B /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD94F9E153A182700B0F63B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD94FB2153A182700B0F63B /* MinecraftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD94FA9153A182700B0F63B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD94F76153A182600B0F63B /* Minecraft */;
+			targetProxy = CAD94FA8153A182700B0F63B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD94F84153A182600B0F63B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD94F85153A182600B0F63B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAD94F8D153A182600B0F63B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD94F8E153A182600B0F63B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD94FAD153A182700B0F63B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD94FAE153A182700B0F63B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD94FB3153A182700B0F63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAD94FB4153A182700B0F63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD94FB6153A182700B0F63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft/Minecraft-Prefix.pch";
+				INFOPLIST_FILE = "Minecraft/Minecraft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAD94FB7153A182700B0F63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft/Minecraft-Prefix.pch";
+				INFOPLIST_FILE = "Minecraft/Minecraft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAD94FB9153A182700B0F63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Minecraft.app/Minecraft";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft/Minecraft-Prefix.pch";
+				INFOPLIST_FILE = "MinecraftTests/MinecraftTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CAD94FBA153A182700B0F63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Minecraft.app/Minecraft";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft/Minecraft-Prefix.pch";
+				INFOPLIST_FILE = "MinecraftTests/MinecraftTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD94F71153A182500B0F63B /* Build configuration list for PBXProject "Minecraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD94FB3153A182700B0F63B /* Debug */,
+				CAD94FB4153A182700B0F63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD94FB5153A182700B0F63B /* Build configuration list for PBXNativeTarget "Minecraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD94FB6153A182700B0F63B /* Debug */,
+				CAD94FB7153A182700B0F63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD94FB8153A182700B0F63B /* Build configuration list for PBXNativeTarget "MinecraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD94FB9153A182700B0F63B /* Debug */,
+				CAD94FBA153A182700B0F63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD94F6E153A182500B0F63B /* Project object */;
+}
