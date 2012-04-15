@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+- (IBAction)dk:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *username;
+@property (weak, nonatomic) IBOutlet UITextField *password;
+- (IBAction)logintms:(id)sender;
 
 @end
