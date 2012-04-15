@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+- (IBAction)sp:(id)sender;
+@property (weak, nonatomic) IBOutlet UISwitch *umcdn;
+@property (weak, nonatomic) IBOutlet UISwitch *oov;
 
 @end

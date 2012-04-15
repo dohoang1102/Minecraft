@@ -13,5 +13,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *username;
 @property (weak, nonatomic) IBOutlet UITextField *password;
 - (IBAction)logintms:(id)sender;
+@property (weak, nonatomic) IBOutlet UISwitch *oov;
 
 @end
